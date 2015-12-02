@@ -89,12 +89,16 @@ Note: 'options' will be different for each method. Check the official API docume
     client.get_bill_rate(project_id, bill_rate_id, options)
     client.get_bill_rates(project_id, options)
 
+## Tags Per User
+
+    client.attach_tags_to_user(user_id, options)
+    client.detach_tags_to_user(user_id, options)
+
 ## To-Do
 
 * Budget Items
 * Budget Item Categories
 * Tags Per Project
-* Tags Per User
 
 ## Contributing
 
