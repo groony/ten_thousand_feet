@@ -10,6 +10,7 @@ require 'ten_thousand_feet/api/assignments'
 require 'ten_thousand_feet/api/time_entries'
 require 'ten_thousand_feet/api/leave_types'
 require 'ten_thousand_feet/api/bill_rates'
+require 'ten_thousand_feet/api/tags_per_user'
 
 module TenThousandFeet
   class Client
